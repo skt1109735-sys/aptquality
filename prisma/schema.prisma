@@ -1,0 +1,216 @@
+// 아파트 단지 현황/품질 대시보드 데이터 모델
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  ADMIN
+  MANAGER
+  VIEWER
+}
+
+enum FacilityCategory {
+  ELEVATOR
+  PARKING
+  PLAYGROUND
+  SECURITY
+  CCTV
+  COMMUNITY
+  FIRE_SAFETY
+  OTHER
+}
+
+enum FacilityStatus {
+  NORMAL
+  NEEDS_REPAIR
+  UNDER_REPAIR
+  OUT_OF_SERVICE
+}
+
+enum QualityCategory {
+  STRUCTURE
+  LEAK
+  FINISH
+  FACILITY
+  OTHER
+}
+
+enum QualitySeverity {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum VocChannel {
+  PHONE
+  APP
+  VISIT
+  ONLINE
+  ETC
+}
+
+enum VocStatus {
+  RECEIVED
+  IN_PROGRESS
+  RESOLVED
+}
+
+enum NoteCategory {
+  GENERAL
+  SAFETY
+  CONSTRUCTION
+  COMPLAINT
+  INSPECTION
+  OTHER
+}
+
+model User {
+  id           String        @id @default(cuid())
+  email        String        @unique
+  name         String?
+  passwordHash String
+  role         Role          @default(MANAGER)
+  createdAt    DateTime      @default(now())
+  notes        SpecialNote[]
+}
+
+model ApartmentComplex {
+  id     String  @id @default(cuid())
+  kaptCode String? @unique
+
+  name         String
+  roadAddress  String?
+  jibunAddress String?
+  sido         String?
+  sigungu      String?
+  dong         String?
+
+  totalHouseholds       Int?
+  totalBuildings        Int?
+  approvalDate          DateTime?
+  heatingType           String?
+  saleType              String?
+  floorAreaRatio        Float?
+  buildingCoverageRatio Float?
+  totalFloorArea        Float?
+  landArea              Float?
+
+  latitude  Float?
+  longitude Float?
+  polygon       Json?
+  polygonSource String?
+
+  dataSyncedAt DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  facilities      Facility[]
+  qualityRecords  QualityRecord[]
+  vocRecords      VocRecord[]
+  notes           SpecialNote[]
+  priceSnapshots  PriceSnapshot[]
+
+  @@index([sido, sigungu])
+  @@index([name])
+}
+
+model Facility {
+  id      String @id @default(cuid())
+  complexId String
+  complex ApartmentComplex @relation(fields: [complexId], references: [id], onDelete: Cascade)
+
+  category       FacilityCategory
+  name           String
+  quantity       Int?
+  status         FacilityStatus @default(NORMAL)
+  installedAt    DateTime?
+  lastInspectedAt DateTime?
+  memo           String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([complexId])
+}
+
+model QualityRecord {
+  id        String @id @default(cuid())
+  complexId String
+  complex   ApartmentComplex @relation(fields: [complexId], references: [id], onDelete: Cascade)
+
+  inspectionDate DateTime
+  category       QualityCategory
+  severity       QualitySeverity
+  defectCount    Int     @default(0)
+  resolvedCount  Int     @default(0)
+  score          Float?
+  inspector      String?
+  memo           String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([complexId])
+}
+
+model VocRecord {
+  id        String @id @default(cuid())
+  complexId String
+  complex   ApartmentComplex @relation(fields: [complexId], references: [id], onDelete: Cascade)
+
+  receivedAt DateTime
+  channel    VocChannel
+  category   String?
+  title      String
+  content    String
+  status     VocStatus @default(RECEIVED)
+  assignee   String?
+  resolvedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([complexId])
+  @@index([status])
+}
+
+model SpecialNote {
+  id        String @id @default(cuid())
+  complexId String
+  complex   ApartmentComplex @relation(fields: [complexId], references: [id], onDelete: Cascade)
+
+  authorId String
+  author   User   @relation(fields: [authorId], references: [id])
+
+  title    String
+  content  String
+  category NoteCategory @default(GENERAL)
+  pinned   Boolean      @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([complexId])
+}
+
+model PriceSnapshot {
+  id        String @id @default(cuid())
+  complexId String
+  complex   ApartmentComplex @relation(fields: [complexId], references: [id], onDelete: Cascade)
+
+  dealDate DateTime
+  area     Float?
+  floor    Int?
+  price    Int
+
+  createdAt DateTime @default(now())
+
+  @@index([complexId, dealDate])
+}
