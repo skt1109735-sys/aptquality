@@ -1,14 +1,16 @@
 # 아파트 단지 현황/품질 대시보드
 
+> 이 브랜치(`gh-pages-demo`)는 GitHub Pages용 **읽기 전용 정적 데모**입니다. 로그인/특이사항
+> 편집 등 서버 기능은 빠져 있고, 데이터는 `src/data/demo-data.json`에 미리 구운 값입니다.
+> 전체 기능(로그인, DB, 특이사항 CRUD)이 있는 버전은 `master` 브랜치를 참고하세요.
+
 아파트 단지 기본현황(호갱노노 스타일 카드 + 지도 폴리곤)과 사내 시설/품질/VoC 현황, 그리고
 사용자가 직접 관리하는 단지별 특이사항을 한 곳에서 보여주는 대시보드입니다.
 
 ## 기술 스택
 
-- Next.js 16 (App Router) + TypeScript, Tailwind CSS
-- PostgreSQL (로컬은 `prisma dev`로 실행, Docker 불필요) + Prisma ORM 7
-- NextAuth.js (Credentials) - 자체 계정 로그인
-- 카카오맵 JS SDK - 지도/폴리곤 렌더링
+- Next.js 16 (App Router, `output: export` 정적 빌드) + TypeScript, Tailwind CSS
+- Leaflet + OpenStreetMap - 지도/폴리곤 렌더링 (API 키 불필요)
 - recharts - 품질점수 추이 차트
 
 ## 처음 시작하기

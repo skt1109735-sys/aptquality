@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { useKakaoMaps } from "./useKakaoMaps";
+import type * as LeafletNS from "leaflet";
 import { MapPlaceholder } from "./MapPlaceholder";
+import { configureDefaultIcon } from "./leafletIcon";
 import type { GeoPolygon } from "@/lib/geo";
 
 export function ComplexLocationMap({
@@ -16,47 +17,44 @@ export function ComplexLocationMap({
   polygon: GeoPolygon | null;
   name: string;
 }) {
-  const status = useKakaoMaps();
   const containerRef = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<LeafletNS.Map | null>(null);
 
   useEffect(() => {
-    if (status !== "ready" || !containerRef.current || latitude === null || longitude === null) {
-      return;
-    }
+    if (!containerRef.current || latitude === null || longitude === null) return;
 
-    const center = new window.kakao.maps.LatLng(latitude, longitude);
-    const map = new window.kakao.maps.Map(containerRef.current, { center, level: 4 });
+    let cancelled = false;
 
-    new window.kakao.maps.Marker({ position: center, map, title: name });
+    import("leaflet").then((leafletModule) => {
+      if (cancelled || !containerRef.current) return;
+      const L = leafletModule.default;
+      configureDefaultIcon(L);
 
-    if (polygon?.coordinates?.[0]) {
-      const path = polygon.coordinates[0].map(
-        ([lng, lat]) => new window.kakao.maps.LatLng(lat, lng)
-      );
-      const poly = new window.kakao.maps.Polygon({
-        path,
-        strokeWeight: 2,
-        strokeColor: "#2a78d6",
-        strokeOpacity: 0.8,
-        fillColor: "#2a78d6",
-        fillOpacity: 0.25,
-      });
-      poly.setMap(map);
-    }
-  }, [status, latitude, longitude, polygon, name]);
+      const map = L.map(containerRef.current).setView([latitude, longitude], 16);
+      mapRef.current = map;
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 19,
+      }).addTo(map);
+
+      L.marker([latitude, longitude]).addTo(map).bindPopup(name);
+
+      if (polygon?.coordinates?.[0]) {
+        const path = polygon.coordinates[0].map(([lng, lat]) => [lat, lng] as [number, number]);
+        L.polygon(path, { color: "#2a78d6", weight: 2, fillOpacity: 0.25 }).addTo(map);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+      mapRef.current?.remove();
+      mapRef.current = null;
+    };
+  }, [latitude, longitude, polygon, name]);
 
   if (!latitude || !longitude) {
     return <MapPlaceholder message="위치 좌표가 아직 등록되지 않았습니다." />;
-  }
-
-  if (status === "missing-key") {
-    return (
-      <MapPlaceholder message="카카오맵 API 키(NEXT_PUBLIC_KAKAO_JS_KEY)가 설정되지 않아 지도를 표시할 수 없습니다." />
-    );
-  }
-
-  if (status === "error") {
-    return <MapPlaceholder message="카카오맵을 불러오는 중 오류가 발생했습니다." />;
   }
 
   return <div ref={containerRef} className="h-full min-h-[280px] w-full rounded-xl" />;
