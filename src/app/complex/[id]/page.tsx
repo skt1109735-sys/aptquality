@@ -1,7 +1,10 @@
 import { notFound } from "next/navigation";
-import { prisma } from "@/lib/prisma";
-import { auth } from "@/lib/auth";
+import { loadDemoComplex, loadDemoComplexes } from "@/lib/demoData";
 import { ComplexTabs } from "@/components/complex/ComplexTabs";
+
+export function generateStaticParams() {
+  return loadDemoComplexes().map((c) => ({ id: c.id }));
+}
 
 export default async function ComplexDetailPage({
   params,
@@ -9,22 +12,7 @@ export default async function ComplexDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-
-  const [complex, session] = await Promise.all([
-    prisma.apartmentComplex.findUnique({
-      where: { id },
-      include: {
-        facilities: { orderBy: { category: "asc" } },
-        qualityRecords: { orderBy: { inspectionDate: "asc" } },
-        vocRecords: { orderBy: { receivedAt: "desc" } },
-        notes: {
-          orderBy: [{ pinned: "desc" }, { createdAt: "desc" }],
-          include: { author: { select: { id: true, name: true, email: true } } },
-        },
-      },
-    }),
-    auth(),
-  ]);
+  const complex = loadDemoComplex(id);
 
   if (!complex) {
     notFound();
@@ -52,7 +40,6 @@ export default async function ComplexDetailPage({
         qualityRecords={complex.qualityRecords}
         vocRecords={complex.vocRecords}
         notes={complex.notes}
-        currentUser={session?.user ? { id: session.user.id, role: session.user.role } : null}
       />
     </div>
   );

@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { signOut, useSession } from "next-auth/react";
 
 const NAV_ITEMS = [
   { href: "/", label: "대시보드" },
@@ -11,7 +10,6 @@ const NAV_ITEMS = [
 
 export function Header() {
   const pathname = usePathname();
-  const { data: session, status } = useSession();
 
   return (
     <header className="sticky top-0 z-40 border-b border-black/10 bg-[var(--background)]/90 backdrop-blur dark:border-white/10">
@@ -36,28 +34,9 @@ export function Header() {
             ))}
           </nav>
         </div>
-        <div className="flex items-center gap-3 text-sm">
-          {status === "authenticated" && session?.user ? (
-            <>
-              <span className="hidden text-black/60 dark:text-white/60 sm:inline">
-                {session.user.name ?? session.user.email}님
-              </span>
-              <button
-                onClick={() => signOut({ callbackUrl: "/" })}
-                className="rounded-md border border-black/15 px-3 py-1.5 font-medium hover:bg-black/5 dark:border-white/15 dark:hover:bg-white/10"
-              >
-                로그아웃
-              </button>
-            </>
-          ) : (
-            <Link
-              href="/login"
-              className="rounded-md bg-blue-600 px-3 py-1.5 font-medium text-white hover:bg-blue-500"
-            >
-              로그인
-            </Link>
-          )}
-        </div>
+        <span className="rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">
+          읽기 전용 데모
+        </span>
       </div>
     </header>
   );

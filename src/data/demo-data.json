@@ -1,0 +1,2458 @@
+[
+  {
+    "id": "cmrnb40mk001mwoqs8z6e3rz8",
+    "kaptCode": "A10000004",
+    "name": "구월신도시1단지",
+    "roadAddress": "인천광역시 남동구 구월동 321-9",
+    "jibunAddress": "인천광역시 남동구 구월동 321-9",
+    "sido": "인천광역시",
+    "sigungu": "남동구",
+    "dong": "구월동",
+    "totalHouseholds": 1560,
+    "totalBuildings": 16,
+    "approvalDate": "2001-06-01T00:00:00.000Z",
+    "heatingType": "중앙난방",
+    "saleType": "분양",
+    "floorAreaRatio": 205,
+    "buildingCoverageRatio": 18.9,
+    "totalFloorArea": 144144,
+    "landArea": 70314,
+    "latitude": 37.4483,
+    "longitude": 126.7025,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            126.7016,
+            37.4476
+          ],
+          [
+            126.7034,
+            37.4476
+          ],
+          [
+            126.7034,
+            37.449000000000005
+          ],
+          [
+            126.7016,
+            37.449000000000005
+          ],
+          [
+            126.7016,
+            37.4476
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:38.431Z",
+    "createdAt": "2026-07-16T09:28:38.444Z",
+    "updatedAt": "2026-07-16T09:28:38.444Z",
+    "facilities": [
+      {
+        "id": "cmrnb40mz001nwoqs1hecekkt",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 4,
+        "status": "NORMAL",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.459Z",
+        "updatedAt": "2026-07-16T09:28:38.459Z"
+      },
+      {
+        "id": "cmrnb40nf001owoqs8q61mfl0",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.475Z",
+        "updatedAt": "2026-07-16T09:28:38.475Z"
+      },
+      {
+        "id": "cmrnb40nn001pwoqsc2kwkngq",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.483Z",
+        "updatedAt": "2026-07-16T09:28:38.483Z"
+      },
+      {
+        "id": "cmrnb40nw001qwoqscqsy4cci",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.492Z",
+        "updatedAt": "2026-07-16T09:28:38.492Z"
+      },
+      {
+        "id": "cmrnb40o7001rwoqsgm0pzxhg",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.503Z",
+        "updatedAt": "2026-07-16T09:28:38.503Z"
+      },
+      {
+        "id": "cmrnb40og001swoqsz88a0wna",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 3,
+        "status": "UNDER_REPAIR",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.512Z",
+        "updatedAt": "2026-07-16T09:28:38.512Z"
+      },
+      {
+        "id": "cmrnb40on001twoqsqhdaz2ua",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 4,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "2001-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.519Z",
+        "updatedAt": "2026-07-16T09:28:38.519Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb40p2001uwoqsphgfk1as",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "inspectionDate": "2025-01-12T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "CRITICAL",
+        "defectCount": 6,
+        "resolvedCount": 6,
+        "score": 85,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.534Z",
+        "updatedAt": "2026-07-16T09:28:38.534Z"
+      },
+      {
+        "id": "cmrnb40pb001vwoqsaynpg3f4",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "inspectionDate": "2025-04-12T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "MEDIUM",
+        "defectCount": 7,
+        "resolvedCount": 6,
+        "score": 98,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.543Z",
+        "updatedAt": "2026-07-16T09:28:38.543Z"
+      },
+      {
+        "id": "cmrnb40pl001wwoqsutlyx73w",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "inspectionDate": "2025-07-12T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "CRITICAL",
+        "defectCount": 8,
+        "resolvedCount": 6,
+        "score": 81,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.553Z",
+        "updatedAt": "2026-07-16T09:28:38.553Z"
+      },
+      {
+        "id": "cmrnb40py001xwoqsapbhzvr3",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "inspectionDate": "2025-10-12T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "MEDIUM",
+        "defectCount": 9,
+        "resolvedCount": 6,
+        "score": 94,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.566Z",
+        "updatedAt": "2026-07-16T09:28:38.566Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb40ru0023woqsg1omml7g",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-06-07T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-06-14T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.634Z",
+        "updatedAt": "2026-07-16T09:28:38.634Z"
+      },
+      {
+        "id": "cmrnb40rh0022woqs4tvoyofh",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-05-07T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.621Z",
+        "updatedAt": "2026-07-16T09:28:38.621Z"
+      },
+      {
+        "id": "cmrnb40r90021woqs0btt5jhn",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-04-07T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.613Z",
+        "updatedAt": "2026-07-16T09:28:38.613Z"
+      },
+      {
+        "id": "cmrnb40r00020woqsvgpjea3n",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-03-07T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-03-14T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.604Z",
+        "updatedAt": "2026-07-16T09:28:38.604Z"
+      },
+      {
+        "id": "cmrnb40qm001zwoqsaro6skl4",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-02-07T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.590Z",
+        "updatedAt": "2026-07-16T09:28:38.590Z"
+      },
+      {
+        "id": "cmrnb40q8001ywoqsxn41u7bb",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "receivedAt": "2026-01-07T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.576Z",
+        "updatedAt": "2026-07-16T09:28:38.576Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb40s20024woqs7mr2arqo",
+        "complexId": "cmrnb40mk001mwoqs8z6e3rz8",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:38.642Z",
+        "updatedAt": "2026-07-16T09:28:38.642Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb401u0001woqssf8hhfsj",
+    "kaptCode": "A10000001",
+    "name": "대치마을1단지",
+    "roadAddress": "서울특별시 강남구 대치동 123-4",
+    "jibunAddress": "서울특별시 강남구 대치동 123-4",
+    "sido": "서울특별시",
+    "sigungu": "강남구",
+    "dong": "대치동",
+    "totalHouseholds": 1240,
+    "totalBuildings": 14,
+    "approvalDate": "1998-06-01T00:00:00.000Z",
+    "heatingType": "지역난방",
+    "saleType": "분양",
+    "floorAreaRatio": 218,
+    "buildingCoverageRatio": 19.5,
+    "totalFloorArea": 114576,
+    "landArea": 52558,
+    "latitude": 37.4944,
+    "longitude": 127.0619,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            127.06099999999999,
+            37.4937
+          ],
+          [
+            127.0628,
+            37.4937
+          ],
+          [
+            127.0628,
+            37.4951
+          ],
+          [
+            127.06099999999999,
+            37.4951
+          ],
+          [
+            127.06099999999999,
+            37.4937
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:37.684Z",
+    "createdAt": "2026-07-16T09:28:37.698Z",
+    "updatedAt": "2026-07-16T09:28:37.698Z",
+    "facilities": [
+      {
+        "id": "cmrnb402j0002woqs7u6rvkx4",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 1,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:37.723Z",
+        "updatedAt": "2026-07-16T09:28:37.723Z"
+      },
+      {
+        "id": "cmrnb40300003woqsd2tp4b5m",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.740Z",
+        "updatedAt": "2026-07-16T09:28:37.740Z"
+      },
+      {
+        "id": "cmrnb403d0004woqs66jqvnef",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.753Z",
+        "updatedAt": "2026-07-16T09:28:37.753Z"
+      },
+      {
+        "id": "cmrnb403q0005woqs1n0fyqiq",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 4,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.766Z",
+        "updatedAt": "2026-07-16T09:28:37.766Z"
+      },
+      {
+        "id": "cmrnb404c0006woqssaky0rzw",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.788Z",
+        "updatedAt": "2026-07-16T09:28:37.788Z"
+      },
+      {
+        "id": "cmrnb404w0007woqsgp9jc9zc",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.808Z",
+        "updatedAt": "2026-07-16T09:28:37.808Z"
+      },
+      {
+        "id": "cmrnb405l0008woqszz1hgih6",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "1998-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:37.833Z",
+        "updatedAt": "2026-07-16T09:28:37.833Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb40630009woqsxhdb6xzs",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "inspectionDate": "2025-01-09T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "LOW",
+        "defectCount": 3,
+        "resolvedCount": 3,
+        "score": 70,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:37.851Z",
+        "updatedAt": "2026-07-16T09:28:37.851Z"
+      },
+      {
+        "id": "cmrnb406l000awoqsmwa21vcj",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "inspectionDate": "2025-04-09T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "HIGH",
+        "defectCount": 4,
+        "resolvedCount": 3,
+        "score": 83,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:37.869Z",
+        "updatedAt": "2026-07-16T09:28:37.869Z"
+      },
+      {
+        "id": "cmrnb4073000bwoqsif02uxo9",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "inspectionDate": "2025-07-09T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "LOW",
+        "defectCount": 5,
+        "resolvedCount": 3,
+        "score": 96,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:37.887Z",
+        "updatedAt": "2026-07-16T09:28:37.887Z"
+      },
+      {
+        "id": "cmrnb407k000cwoqsvfm50yve",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "inspectionDate": "2025-10-09T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "HIGH",
+        "defectCount": 6,
+        "resolvedCount": 3,
+        "score": 79,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:37.904Z",
+        "updatedAt": "2026-07-16T09:28:37.904Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb409u000iwoqsb25vmf6g",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-06-04T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-06-11T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:37.986Z",
+        "updatedAt": "2026-07-16T09:28:37.986Z"
+      },
+      {
+        "id": "cmrnb409h000hwoqsareyv27m",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-05-04T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:37.973Z",
+        "updatedAt": "2026-07-16T09:28:37.973Z"
+      },
+      {
+        "id": "cmrnb4097000gwoqsntzlqphl",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-04-04T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:37.963Z",
+        "updatedAt": "2026-07-16T09:28:37.963Z"
+      },
+      {
+        "id": "cmrnb408w000fwoqs9v3ecvz2",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-03-04T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-03-11T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:37.952Z",
+        "updatedAt": "2026-07-16T09:28:37.952Z"
+      },
+      {
+        "id": "cmrnb4087000ewoqs50ahydbh",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-02-04T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:37.927Z",
+        "updatedAt": "2026-07-16T09:28:37.927Z"
+      },
+      {
+        "id": "cmrnb407w000dwoqsvycwenxb",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "receivedAt": "2026-01-04T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:37.916Z",
+        "updatedAt": "2026-07-16T09:28:37.916Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb40a3000jwoqshehojtur",
+        "complexId": "cmrnb401u0001woqssf8hhfsj",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": true,
+        "createdAt": "2026-07-16T09:28:37.995Z",
+        "updatedAt": "2026-07-16T09:28:37.995Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb40xf002owoqsn39airbg",
+    "kaptCode": "A10000006",
+    "name": "매탄푸른숲마을",
+    "roadAddress": "경기도 수원시 영통구 매탄동 210-7",
+    "jibunAddress": "경기도 수원시 영통구 매탄동 210-7",
+    "sido": "경기도",
+    "sigungu": "수원시 영통구",
+    "dong": "매탄동",
+    "totalHouseholds": 760,
+    "totalBuildings": 8,
+    "approvalDate": "2009-06-01T00:00:00.000Z",
+    "heatingType": "개별난방",
+    "saleType": "임대",
+    "floorAreaRatio": 195,
+    "buildingCoverageRatio": 18.1,
+    "totalFloorArea": 70224,
+    "landArea": 36012,
+    "latitude": 37.2668,
+    "longitude": 127.0489,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            127.048,
+            37.2661
+          ],
+          [
+            127.0498,
+            37.2661
+          ],
+          [
+            127.0498,
+            37.267500000000005
+          ],
+          [
+            127.048,
+            37.267500000000005
+          ],
+          [
+            127.048,
+            37.2661
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:38.824Z",
+    "createdAt": "2026-07-16T09:28:38.835Z",
+    "updatedAt": "2026-07-16T09:28:38.835Z",
+    "facilities": [
+      {
+        "id": "cmrnb40yh002pwoqsbm57c4g0",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.873Z",
+        "updatedAt": "2026-07-16T09:28:38.873Z"
+      },
+      {
+        "id": "cmrnb40yx002qwoqsfouthebj",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 1,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.889Z",
+        "updatedAt": "2026-07-16T09:28:38.889Z"
+      },
+      {
+        "id": "cmrnb40z6002rwoqstofwmmkq",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.898Z",
+        "updatedAt": "2026-07-16T09:28:38.898Z"
+      },
+      {
+        "id": "cmrnb40zd002swoqsvixpahtx",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.905Z",
+        "updatedAt": "2026-07-16T09:28:38.905Z"
+      },
+      {
+        "id": "cmrnb40zo002twoqsh51wssqa",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 4,
+        "status": "UNDER_REPAIR",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.917Z",
+        "updatedAt": "2026-07-16T09:28:38.917Z"
+      },
+      {
+        "id": "cmrnb4103002uwoqsg6kolxcc",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.931Z",
+        "updatedAt": "2026-07-16T09:28:38.931Z"
+      },
+      {
+        "id": "cmrnb4115002vwoqs65tax8we",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2009-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.969Z",
+        "updatedAt": "2026-07-16T09:28:38.969Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb411p002wwoqsne7whm3h",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "inspectionDate": "2025-01-14T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "MEDIUM",
+        "defectCount": 4,
+        "resolvedCount": 4,
+        "score": 95,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.989Z",
+        "updatedAt": "2026-07-16T09:28:38.989Z"
+      },
+      {
+        "id": "cmrnb411x002xwoqsb1bo803x",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "inspectionDate": "2025-04-14T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "CRITICAL",
+        "defectCount": 5,
+        "resolvedCount": 4,
+        "score": 78,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.997Z",
+        "updatedAt": "2026-07-16T09:28:38.997Z"
+      },
+      {
+        "id": "cmrnb4126002ywoqs5x0vaxmg",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "inspectionDate": "2025-07-14T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "MEDIUM",
+        "defectCount": 6,
+        "resolvedCount": 4,
+        "score": 91,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.006Z",
+        "updatedAt": "2026-07-16T09:28:39.006Z"
+      },
+      {
+        "id": "cmrnb412j002zwoqsafb5vitq",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "inspectionDate": "2025-10-14T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "CRITICAL",
+        "defectCount": 7,
+        "resolvedCount": 4,
+        "score": 74,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.019Z",
+        "updatedAt": "2026-07-16T09:28:39.019Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb41420035woqsq9fzyv24",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-06-09T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.074Z",
+        "updatedAt": "2026-07-16T09:28:39.074Z"
+      },
+      {
+        "id": "cmrnb413p0034woqs476tyb23",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-05-09T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-05-16T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.061Z",
+        "updatedAt": "2026-07-16T09:28:39.061Z"
+      },
+      {
+        "id": "cmrnb413j0033woqsk9blnxfn",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-04-09T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.055Z",
+        "updatedAt": "2026-07-16T09:28:39.055Z"
+      },
+      {
+        "id": "cmrnb413b0032woqsdc1xqdw5",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-03-09T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.047Z",
+        "updatedAt": "2026-07-16T09:28:39.047Z"
+      },
+      {
+        "id": "cmrnb41300031woqs9p5a6wtr",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-02-09T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-02-16T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.036Z",
+        "updatedAt": "2026-07-16T09:28:39.036Z"
+      },
+      {
+        "id": "cmrnb412r0030woqsahcr8vno",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "receivedAt": "2026-01-09T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.027Z",
+        "updatedAt": "2026-07-16T09:28:39.027Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb41490036woqsbzk5qtra",
+        "complexId": "cmrnb40xf002owoqsn39airbg",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:39.081Z",
+        "updatedAt": "2026-07-16T09:28:39.081Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb40gy0013woqs3oyfrurm",
+    "kaptCode": "A10000003",
+    "name": "송도한빛마을2단지",
+    "roadAddress": "인천광역시 연수구 송도동 789-1",
+    "jibunAddress": "인천광역시 연수구 송도동 789-1",
+    "sido": "인천광역시",
+    "sigungu": "연수구",
+    "dong": "송도동",
+    "totalHouseholds": 980,
+    "totalBuildings": 9,
+    "approvalDate": "2012-06-01T00:00:00.000Z",
+    "heatingType": "개별난방",
+    "saleType": "분양",
+    "floorAreaRatio": 189,
+    "buildingCoverageRatio": 17.8,
+    "totalFloorArea": 90552,
+    "landArea": 47911,
+    "latitude": 37.3894,
+    "longitude": 126.6329,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            126.632,
+            37.3887
+          ],
+          [
+            126.63380000000001,
+            37.3887
+          ],
+          [
+            126.63380000000001,
+            37.390100000000004
+          ],
+          [
+            126.632,
+            37.390100000000004
+          ],
+          [
+            126.632,
+            37.3887
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:38.228Z",
+    "createdAt": "2026-07-16T09:28:38.242Z",
+    "updatedAt": "2026-07-16T09:28:38.242Z",
+    "facilities": [
+      {
+        "id": "cmrnb40h90014woqs5qg910b8",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.253Z",
+        "updatedAt": "2026-07-16T09:28:38.253Z"
+      },
+      {
+        "id": "cmrnb40hl0015woqsg11z4se3",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 4,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.265Z",
+        "updatedAt": "2026-07-16T09:28:38.265Z"
+      },
+      {
+        "id": "cmrnb40hv0016woqs3w4ys6ym",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.275Z",
+        "updatedAt": "2026-07-16T09:28:38.275Z"
+      },
+      {
+        "id": "cmrnb40i30017woqsdkq2outp",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.283Z",
+        "updatedAt": "2026-07-16T09:28:38.283Z"
+      },
+      {
+        "id": "cmrnb40ih0018woqswgz4pn65",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 1,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.297Z",
+        "updatedAt": "2026-07-16T09:28:38.297Z"
+      },
+      {
+        "id": "cmrnb40ir0019woqsmym8v9pp",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.307Z",
+        "updatedAt": "2026-07-16T09:28:38.307Z"
+      },
+      {
+        "id": "cmrnb40iz001awoqs3z3kv9nf",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "2012-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.315Z",
+        "updatedAt": "2026-07-16T09:28:38.315Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb40j5001bwoqsuvsexz5c",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "inspectionDate": "2025-01-11T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "HIGH",
+        "defectCount": 13,
+        "resolvedCount": 13,
+        "score": 80,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.321Z",
+        "updatedAt": "2026-07-16T09:28:38.321Z"
+      },
+      {
+        "id": "cmrnb40jh001cwoqstv0phwkv",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "inspectionDate": "2025-04-11T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "LOW",
+        "defectCount": 14,
+        "resolvedCount": 13,
+        "score": 93,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.333Z",
+        "updatedAt": "2026-07-16T09:28:38.333Z"
+      },
+      {
+        "id": "cmrnb40jq001dwoqskqjlksg3",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "inspectionDate": "2025-07-11T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "HIGH",
+        "defectCount": 3,
+        "resolvedCount": 1,
+        "score": 76,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.342Z",
+        "updatedAt": "2026-07-16T09:28:38.342Z"
+      },
+      {
+        "id": "cmrnb40jy001ewoqspmkqjw8z",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "inspectionDate": "2025-10-11T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "LOW",
+        "defectCount": 4,
+        "resolvedCount": 1,
+        "score": 89,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.350Z",
+        "updatedAt": "2026-07-16T09:28:38.350Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb40lk001kwoqs39lop7ex",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-06-06T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.408Z",
+        "updatedAt": "2026-07-16T09:28:38.408Z"
+      },
+      {
+        "id": "cmrnb40lb001jwoqsc06tqhyd",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-05-06T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-05-13T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.399Z",
+        "updatedAt": "2026-07-16T09:28:38.399Z"
+      },
+      {
+        "id": "cmrnb40l4001iwoqsudi27qc6",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-04-06T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.392Z",
+        "updatedAt": "2026-07-16T09:28:38.392Z"
+      },
+      {
+        "id": "cmrnb40ks001hwoqsx8brmzuq",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-03-06T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.380Z",
+        "updatedAt": "2026-07-16T09:28:38.380Z"
+      },
+      {
+        "id": "cmrnb40kj001gwoqs1mx6c0cs",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-02-06T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-02-13T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.371Z",
+        "updatedAt": "2026-07-16T09:28:38.371Z"
+      },
+      {
+        "id": "cmrnb40kb001fwoqsmin5eeqt",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "receivedAt": "2026-01-06T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.363Z",
+        "updatedAt": "2026-07-16T09:28:38.363Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb40lz001lwoqsyac3a2os",
+        "complexId": "cmrnb40gy0013woqs3oyfrurm",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:38.423Z",
+        "updatedAt": "2026-07-16T09:28:38.423Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb414t0037woqs4ur554sn",
+    "kaptCode": "A10000007",
+    "name": "일산호수마을5단지",
+    "roadAddress": "경기도 고양시 일산동구 장항동 88-2",
+    "jibunAddress": "경기도 고양시 일산동구 장항동 88-2",
+    "sido": "경기도",
+    "sigungu": "고양시 일산동구",
+    "dong": "장항동",
+    "totalHouseholds": 1890,
+    "totalBuildings": 19,
+    "approvalDate": "1994-06-01T00:00:00.000Z",
+    "heatingType": "지역난방",
+    "saleType": "분양",
+    "floorAreaRatio": 169,
+    "buildingCoverageRatio": 15.7,
+    "totalFloorArea": 174636,
+    "landArea": 103335,
+    "latitude": 37.6733,
+    "longitude": 126.7738,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            126.77289999999999,
+            37.672599999999996
+          ],
+          [
+            126.7747,
+            37.672599999999996
+          ],
+          [
+            126.7747,
+            37.674
+          ],
+          [
+            126.77289999999999,
+            37.674
+          ],
+          [
+            126.77289999999999,
+            37.672599999999996
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:39.088Z",
+    "createdAt": "2026-07-16T09:28:39.101Z",
+    "updatedAt": "2026-07-16T09:28:39.101Z",
+    "facilities": [
+      {
+        "id": "cmrnb41520038woqs7upb3k69",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.110Z",
+        "updatedAt": "2026-07-16T09:28:39.110Z"
+      },
+      {
+        "id": "cmrnb415f0039woqstejb3zj1",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.123Z",
+        "updatedAt": "2026-07-16T09:28:39.123Z"
+      },
+      {
+        "id": "cmrnb415o003awoqsj311888n",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.132Z",
+        "updatedAt": "2026-07-16T09:28:39.132Z"
+      },
+      {
+        "id": "cmrnb415v003bwoqsim1nrkkd",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 4,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:39.139Z",
+        "updatedAt": "2026-07-16T09:28:39.139Z"
+      },
+      {
+        "id": "cmrnb4168003cwoqs4sodo6p9",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.152Z",
+        "updatedAt": "2026-07-16T09:28:39.152Z"
+      },
+      {
+        "id": "cmrnb416g003dwoqs25nf8sor",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.160Z",
+        "updatedAt": "2026-07-16T09:28:39.160Z"
+      },
+      {
+        "id": "cmrnb416p003ewoqs5srgvrw0",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "1994-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.169Z",
+        "updatedAt": "2026-07-16T09:28:39.169Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb416z003fwoqsl0ssawuq",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "inspectionDate": "2025-01-15T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "HIGH",
+        "defectCount": 9,
+        "resolvedCount": 9,
+        "score": 70,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.179Z",
+        "updatedAt": "2026-07-16T09:28:39.179Z"
+      },
+      {
+        "id": "cmrnb4176003gwoqsgqnacm2p",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "inspectionDate": "2025-04-15T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "LOW",
+        "defectCount": 10,
+        "resolvedCount": 9,
+        "score": 83,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.186Z",
+        "updatedAt": "2026-07-16T09:28:39.186Z"
+      },
+      {
+        "id": "cmrnb417d003hwoqs93w7bocj",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "inspectionDate": "2025-07-15T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "HIGH",
+        "defectCount": 11,
+        "resolvedCount": 9,
+        "score": 96,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.193Z",
+        "updatedAt": "2026-07-16T09:28:39.193Z"
+      },
+      {
+        "id": "cmrnb417o003iwoqswkpal8dy",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "inspectionDate": "2025-10-15T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "LOW",
+        "defectCount": 12,
+        "resolvedCount": 9,
+        "score": 79,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.204Z",
+        "updatedAt": "2026-07-16T09:28:39.204Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb4198003owoqscegtxut2",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-06-10T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-06-17T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.260Z",
+        "updatedAt": "2026-07-16T09:28:39.260Z"
+      },
+      {
+        "id": "cmrnb418v003nwoqs4ezfrp42",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-05-10T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.247Z",
+        "updatedAt": "2026-07-16T09:28:39.247Z"
+      },
+      {
+        "id": "cmrnb418p003mwoqs1rdk2t4n",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-04-10T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.241Z",
+        "updatedAt": "2026-07-16T09:28:39.241Z"
+      },
+      {
+        "id": "cmrnb418h003lwoqswsyyohot",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-03-10T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-03-17T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.233Z",
+        "updatedAt": "2026-07-16T09:28:39.233Z"
+      },
+      {
+        "id": "cmrnb4185003kwoqs4svostov",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-02-10T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.221Z",
+        "updatedAt": "2026-07-16T09:28:39.221Z"
+      },
+      {
+        "id": "cmrnb417w003jwoqsu7s863nw",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "receivedAt": "2026-01-10T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.212Z",
+        "updatedAt": "2026-07-16T09:28:39.212Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb419g003pwoqsfi5h6fh8",
+        "complexId": "cmrnb414t0037woqs4ur554sn",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:39.268Z",
+        "updatedAt": "2026-07-16T09:28:39.268Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb40ap000kwoqsjgzst1u7",
+    "kaptCode": "A10000002",
+    "name": "잠실중앙마을3단지",
+    "roadAddress": "서울특별시 송파구 잠실동 45-6",
+    "jibunAddress": "서울특별시 송파구 잠실동 45-6",
+    "sido": "서울특별시",
+    "sigungu": "송파구",
+    "dong": "잠실동",
+    "totalHouseholds": 2180,
+    "totalBuildings": 22,
+    "approvalDate": "2005-06-01T00:00:00.000Z",
+    "heatingType": "지역난방",
+    "saleType": "분양",
+    "floorAreaRatio": 245,
+    "buildingCoverageRatio": 21.2,
+    "totalFloorArea": 201432,
+    "landArea": 82217,
+    "latitude": 37.5133,
+    "longitude": 127.1,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            127.09909999999999,
+            37.5126
+          ],
+          [
+            127.1009,
+            37.5126
+          ],
+          [
+            127.1009,
+            37.514
+          ],
+          [
+            127.09909999999999,
+            37.514
+          ],
+          [
+            127.09909999999999,
+            37.5126
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:38.002Z",
+    "createdAt": "2026-07-16T09:28:38.017Z",
+    "updatedAt": "2026-07-16T09:28:38.017Z",
+    "facilities": [
+      {
+        "id": "cmrnb40b8000lwoqsrwpih94g",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.036Z",
+        "updatedAt": "2026-07-16T09:28:38.036Z"
+      },
+      {
+        "id": "cmrnb40bl000mwoqse19q7jhz",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.049Z",
+        "updatedAt": "2026-07-16T09:28:38.049Z"
+      },
+      {
+        "id": "cmrnb40c2000nwoqskj2zm2lx",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 4,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.066Z",
+        "updatedAt": "2026-07-16T09:28:38.066Z"
+      },
+      {
+        "id": "cmrnb40cf000owoqsyv14qh5o",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.079Z",
+        "updatedAt": "2026-07-16T09:28:38.079Z"
+      },
+      {
+        "id": "cmrnb40cq000pwoqsdnir8klf",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.090Z",
+        "updatedAt": "2026-07-16T09:28:38.090Z"
+      },
+      {
+        "id": "cmrnb40d0000qwoqsf5seuv1a",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.100Z",
+        "updatedAt": "2026-07-16T09:28:38.100Z"
+      },
+      {
+        "id": "cmrnb40d8000rwoqs27pfr0b6",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 2,
+        "status": "UNDER_REPAIR",
+        "installedAt": "2005-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:38.108Z",
+        "updatedAt": "2026-07-16T09:28:38.108Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb40dm000swoqs73fkb25d",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "inspectionDate": "2025-01-10T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "MEDIUM",
+        "defectCount": 8,
+        "resolvedCount": 8,
+        "score": 75,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.122Z",
+        "updatedAt": "2026-07-16T09:28:38.122Z"
+      },
+      {
+        "id": "cmrnb40dv000twoqshao8njjx",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "inspectionDate": "2025-04-10T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "CRITICAL",
+        "defectCount": 9,
+        "resolvedCount": 8,
+        "score": 88,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.131Z",
+        "updatedAt": "2026-07-16T09:28:38.131Z"
+      },
+      {
+        "id": "cmrnb40e4000uwoqsdfhcc3wg",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "inspectionDate": "2025-07-10T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "MEDIUM",
+        "defectCount": 10,
+        "resolvedCount": 8,
+        "score": 71,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.140Z",
+        "updatedAt": "2026-07-16T09:28:38.140Z"
+      },
+      {
+        "id": "cmrnb40eh000vwoqshqg6d4ep",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "inspectionDate": "2025-10-10T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "CRITICAL",
+        "defectCount": 11,
+        "resolvedCount": 8,
+        "score": 84,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.153Z",
+        "updatedAt": "2026-07-16T09:28:38.153Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb40g30011woqsbkbxx4ud",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-06-05T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.211Z",
+        "updatedAt": "2026-07-16T09:28:38.211Z"
+      },
+      {
+        "id": "cmrnb40fs0010woqsieai9gv3",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-05-05T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.200Z",
+        "updatedAt": "2026-07-16T09:28:38.200Z"
+      },
+      {
+        "id": "cmrnb40fj000zwoqsrhhyw57h",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-04-05T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-04-12T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.191Z",
+        "updatedAt": "2026-07-16T09:28:38.191Z"
+      },
+      {
+        "id": "cmrnb40fb000ywoqszaybyl3k",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-03-05T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.183Z",
+        "updatedAt": "2026-07-16T09:28:38.183Z"
+      },
+      {
+        "id": "cmrnb40ez000xwoqshjfiqqcu",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-02-05T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.171Z",
+        "updatedAt": "2026-07-16T09:28:38.171Z"
+      },
+      {
+        "id": "cmrnb40er000wwoqsecgy7rcw",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "receivedAt": "2026-01-05T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "놀이터 시설 파손 신고",
+        "content": "놀이터 시설 파손 신고 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-01-12T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.163Z",
+        "updatedAt": "2026-07-16T09:28:38.163Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb40gc0012woqsmevo5tyl",
+        "complexId": "cmrnb40ap000kwoqsjgzst1u7",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:38.220Z",
+        "updatedAt": "2026-07-16T09:28:38.220Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb40sn0025woqsl1tjseam",
+    "kaptCode": "A10000005",
+    "name": "정자늘푸른마을4단지",
+    "roadAddress": "경기도 성남시 분당구 정자동 55-3",
+    "jibunAddress": "경기도 성남시 분당구 정자동 55-3",
+    "sido": "경기도",
+    "sigungu": "성남시 분당구",
+    "dong": "정자동",
+    "totalHouseholds": 1420,
+    "totalBuildings": 15,
+    "approvalDate": "1996-06-01T00:00:00.000Z",
+    "heatingType": "지역난방",
+    "saleType": "분양",
+    "floorAreaRatio": 178,
+    "buildingCoverageRatio": 16.4,
+    "totalFloorArea": 131208,
+    "landArea": 73712,
+    "latitude": 37.3665,
+    "longitude": 127.1086,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            127.1077,
+            37.3658
+          ],
+          [
+            127.1095,
+            37.3658
+          ],
+          [
+            127.1095,
+            37.367200000000004
+          ],
+          [
+            127.1077,
+            37.367200000000004
+          ],
+          [
+            127.1077,
+            37.3658
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:38.650Z",
+    "createdAt": "2026-07-16T09:28:38.663Z",
+    "updatedAt": "2026-07-16T09:28:38.663Z",
+    "facilities": [
+      {
+        "id": "cmrnb40sw0026woqsq1do6utm",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.672Z",
+        "updatedAt": "2026-07-16T09:28:38.672Z"
+      },
+      {
+        "id": "cmrnb40t70027woqsmqsduhi0",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.683Z",
+        "updatedAt": "2026-07-16T09:28:38.683Z"
+      },
+      {
+        "id": "cmrnb40tg0028woqsrbxdrtb2",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 1,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.692Z",
+        "updatedAt": "2026-07-16T09:28:38.692Z"
+      },
+      {
+        "id": "cmrnb40to0029woqsk0nqoetn",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.700Z",
+        "updatedAt": "2026-07-16T09:28:38.700Z"
+      },
+      {
+        "id": "cmrnb40ts002awoqs3x0km73b",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.704Z",
+        "updatedAt": "2026-07-16T09:28:38.704Z"
+      },
+      {
+        "id": "cmrnb40u3002bwoqsgmz910wy",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 4,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.715Z",
+        "updatedAt": "2026-07-16T09:28:38.715Z"
+      },
+      {
+        "id": "cmrnb40ua002cwoqsukgsuwt8",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 5,
+        "status": "NORMAL",
+        "installedAt": "1996-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:38.722Z",
+        "updatedAt": "2026-07-16T09:28:38.722Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb40ug002dwoqswvzaajsc",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "inspectionDate": "2025-01-13T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "LOW",
+        "defectCount": 11,
+        "resolvedCount": 11,
+        "score": 90,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.728Z",
+        "updatedAt": "2026-07-16T09:28:38.728Z"
+      },
+      {
+        "id": "cmrnb40ur002ewoqsq7zt2vao",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "inspectionDate": "2025-04-13T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "HIGH",
+        "defectCount": 12,
+        "resolvedCount": 11,
+        "score": 73,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.739Z",
+        "updatedAt": "2026-07-16T09:28:38.739Z"
+      },
+      {
+        "id": "cmrnb40uy002fwoqsvc2zy1lf",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "inspectionDate": "2025-07-13T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "LOW",
+        "defectCount": 13,
+        "resolvedCount": 11,
+        "score": 86,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.746Z",
+        "updatedAt": "2026-07-16T09:28:38.746Z"
+      },
+      {
+        "id": "cmrnb40v5002gwoqs9t1z1u65",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "inspectionDate": "2025-10-13T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "HIGH",
+        "defectCount": 14,
+        "resolvedCount": 11,
+        "score": 99,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:38.753Z",
+        "updatedAt": "2026-07-16T09:28:38.753Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb40wk002mwoqsx7rboo6s",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-06-08T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.804Z",
+        "updatedAt": "2026-07-16T09:28:38.804Z"
+      },
+      {
+        "id": "cmrnb40wb002lwoqs8p2xdrhi",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-05-08T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.795Z",
+        "updatedAt": "2026-07-16T09:28:38.795Z"
+      },
+      {
+        "id": "cmrnb40w0002kwoqsma679ldd",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-04-08T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-04-15T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.784Z",
+        "updatedAt": "2026-07-16T09:28:38.784Z"
+      },
+      {
+        "id": "cmrnb40vv002jwoqs1u2m6h7s",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-03-08T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.779Z",
+        "updatedAt": "2026-07-16T09:28:38.779Z"
+      },
+      {
+        "id": "cmrnb40vo002iwoqsoet4gfb3",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-02-08T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:38.772Z",
+        "updatedAt": "2026-07-16T09:28:38.772Z"
+      },
+      {
+        "id": "cmrnb40vf002hwoqs5vql3q3s",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "receivedAt": "2026-01-08T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "누수 관련 문의",
+        "content": "누수 관련 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-01-15T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:38.763Z",
+        "updatedAt": "2026-07-16T09:28:38.763Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb40wr002nwoqsdix4a21y",
+        "complexId": "cmrnb40sn0025woqsl1tjseam",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:38.811Z",
+        "updatedAt": "2026-07-16T09:28:38.811Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmrnb41a1003qwoqsplvy3el9",
+    "kaptCode": "A10000008",
+    "name": "춘천석사중앙마을",
+    "roadAddress": "강원특별자치도 춘천시 석사동 12-1",
+    "jibunAddress": "강원특별자치도 춘천시 석사동 12-1",
+    "sido": "강원특별자치도",
+    "sigungu": "춘천시",
+    "dong": "석사동",
+    "totalHouseholds": 540,
+    "totalBuildings": 6,
+    "approvalDate": "2016-06-01T00:00:00.000Z",
+    "heatingType": "개별난방",
+    "saleType": "분양",
+    "floorAreaRatio": 182,
+    "buildingCoverageRatio": 17.2,
+    "totalFloorArea": 49896,
+    "landArea": 27415,
+    "latitude": 37.8564,
+    "longitude": 127.7519,
+    "polygon": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            127.751,
+            37.8557
+          ],
+          [
+            127.75280000000001,
+            37.8557
+          ],
+          [
+            127.75280000000001,
+            37.8571
+          ],
+          [
+            127.751,
+            37.8571
+          ],
+          [
+            127.751,
+            37.8557
+          ]
+        ]
+      ]
+    },
+    "polygonSource": "MOCK",
+    "dataSyncedAt": "2026-07-16T09:28:39.274Z",
+    "createdAt": "2026-07-16T09:28:39.289Z",
+    "updatedAt": "2026-07-16T09:28:39.289Z",
+    "facilities": [
+      {
+        "id": "cmrnb41ag003rwoqs3308pi0q",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "ELEVATOR",
+        "name": "동별 승강기",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.304Z",
+        "updatedAt": "2026-07-16T09:28:39.304Z"
+      },
+      {
+        "id": "cmrnb41ao003swoqs2ftpwhlo",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "PARKING",
+        "name": "지하주차장",
+        "quantity": 3,
+        "status": "NORMAL",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.312Z",
+        "updatedAt": "2026-07-16T09:28:39.312Z"
+      },
+      {
+        "id": "cmrnb41av003twoqstvurpas3",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "PLAYGROUND",
+        "name": "어린이놀이터",
+        "quantity": 4,
+        "status": "NORMAL",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.319Z",
+        "updatedAt": "2026-07-16T09:28:39.319Z"
+      },
+      {
+        "id": "cmrnb41b0003uwoqsl8wzum8o",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "SECURITY",
+        "name": "경비실",
+        "quantity": 5,
+        "status": "UNDER_REPAIR",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:39.324Z",
+        "updatedAt": "2026-07-16T09:28:39.324Z"
+      },
+      {
+        "id": "cmrnb41ba003vwoqs6t5u0u7b",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "CCTV",
+        "name": "단지 내 CCTV",
+        "quantity": 6,
+        "status": "NORMAL",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.334Z",
+        "updatedAt": "2026-07-16T09:28:39.334Z"
+      },
+      {
+        "id": "cmrnb41bl003wwoqs30alzfwc",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "COMMUNITY",
+        "name": "커뮤니티센터",
+        "quantity": 1,
+        "status": "NEEDS_REPAIR",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": "정기점검에서 경미한 이상 발견, 후속 조치 필요",
+        "createdAt": "2026-07-16T09:28:39.345Z",
+        "updatedAt": "2026-07-16T09:28:39.345Z"
+      },
+      {
+        "id": "cmrnb41bt003xwoqsaln6m9u3",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "category": "FIRE_SAFETY",
+        "name": "소방설비",
+        "quantity": 2,
+        "status": "NORMAL",
+        "installedAt": "2016-06-01T00:00:00.000Z",
+        "lastInspectedAt": "2026-04-01T00:00:00.000Z",
+        "memo": null,
+        "createdAt": "2026-07-16T09:28:39.353Z",
+        "updatedAt": "2026-07-16T09:28:39.353Z"
+      }
+    ],
+    "qualityRecords": [
+      {
+        "id": "cmrnb41by003ywoqsvd21o7ga",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "inspectionDate": "2025-01-16T15:00:00.000Z",
+        "category": "STRUCTURE",
+        "severity": "CRITICAL",
+        "defectCount": 14,
+        "resolvedCount": 14,
+        "score": 75,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.358Z",
+        "updatedAt": "2026-07-16T09:28:39.358Z"
+      },
+      {
+        "id": "cmrnb41c8003zwoqsmpecbbf4",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "inspectionDate": "2025-04-16T15:00:00.000Z",
+        "category": "LEAK",
+        "severity": "MEDIUM",
+        "defectCount": 3,
+        "resolvedCount": 2,
+        "score": 88,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.368Z",
+        "updatedAt": "2026-07-16T09:28:39.368Z"
+      },
+      {
+        "id": "cmrnb41cg0040woqsddbf1c5v",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "inspectionDate": "2025-07-16T15:00:00.000Z",
+        "category": "FINISH",
+        "severity": "CRITICAL",
+        "defectCount": 4,
+        "resolvedCount": 2,
+        "score": 71,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.376Z",
+        "updatedAt": "2026-07-16T09:28:39.376Z"
+      },
+      {
+        "id": "cmrnb41cp0041woqszfignvu9",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "inspectionDate": "2025-10-16T15:00:00.000Z",
+        "category": "FACILITY",
+        "severity": "MEDIUM",
+        "defectCount": 5,
+        "resolvedCount": 2,
+        "score": 84,
+        "inspector": "품질진단팀",
+        "memo": "정기 품질점검 결과",
+        "createdAt": "2026-07-16T09:28:39.385Z",
+        "updatedAt": "2026-07-16T09:28:39.385Z"
+      }
+    ],
+    "vocRecords": [
+      {
+        "id": "cmrnb41e50047woqswlbe61zr",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-06-11T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "엘리베이터 소음 문의",
+        "content": "엘리베이터 소음 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.437Z",
+        "updatedAt": "2026-07-16T09:28:39.437Z"
+      },
+      {
+        "id": "cmrnb41dz0046woqsid71ajhu",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-05-11T15:00:00.000Z",
+        "channel": "APP",
+        "category": "FACILITY",
+        "title": "층간소음 민원",
+        "content": "층간소음 민원 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.431Z",
+        "updatedAt": "2026-07-16T09:28:39.431Z"
+      },
+      {
+        "id": "cmrnb41dr0045woqs2ty1ofbb",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-04-11T15:00:00.000Z",
+        "channel": "PHONE",
+        "category": "FINISH",
+        "title": "주차장 조명 고장 문의",
+        "content": "주차장 조명 고장 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-04-18T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.423Z",
+        "updatedAt": "2026-07-16T09:28:39.423Z"
+      },
+      {
+        "id": "cmrnb41df0044woqswf0bnhj0",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-03-11T15:00:00.000Z",
+        "channel": "ETC",
+        "category": "LEAK",
+        "title": "커뮤니티센터 예약 문의",
+        "content": "커뮤니티센터 예약 문의 관련 입주민 문의 내용입니다.",
+        "status": "IN_PROGRESS",
+        "assignee": "관리사무소",
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.411Z",
+        "updatedAt": "2026-07-16T09:28:39.411Z"
+      },
+      {
+        "id": "cmrnb41d90043woqswwkoo0n8",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-02-11T15:00:00.000Z",
+        "channel": "ONLINE",
+        "category": "STRUCTURE",
+        "title": "단지 내 흡연 민원",
+        "content": "단지 내 흡연 민원 관련 입주민 문의 내용입니다.",
+        "status": "RECEIVED",
+        "assignee": null,
+        "resolvedAt": null,
+        "createdAt": "2026-07-16T09:28:39.405Z",
+        "updatedAt": "2026-07-16T09:28:39.405Z"
+      },
+      {
+        "id": "cmrnb41d00042woqsk9vonuyi",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "receivedAt": "2026-01-11T15:00:00.000Z",
+        "channel": "VISIT",
+        "category": "OTHER",
+        "title": "관리비 산정 문의",
+        "content": "관리비 산정 문의 관련 입주민 문의 내용입니다.",
+        "status": "RESOLVED",
+        "assignee": "관리사무소",
+        "resolvedAt": "2026-01-18T15:00:00.000Z",
+        "createdAt": "2026-07-16T09:28:39.396Z",
+        "updatedAt": "2026-07-16T09:28:39.396Z"
+      }
+    ],
+    "notes": [
+      {
+        "id": "cmrnb41ek0048woqsp6pv8phd",
+        "complexId": "cmrnb41a1003qwoqsplvy3el9",
+        "authorId": "cmrnb400k0000woqsr1ny9hny",
+        "title": "정기 순회점검 메모",
+        "content": "단지 정기 순회점검 시 특이사항 없음. 다음 점검 예정일 확인 필요.",
+        "category": "INSPECTION",
+        "pinned": false,
+        "createdAt": "2026-07-16T09:28:39.452Z",
+        "updatedAt": "2026-07-16T09:28:39.452Z",
+        "author": {
+          "id": "cmrnb400k0000woqsr1ny9hny",
+          "name": "관리자",
+          "email": "admin@aptquality.local"
+        }
+      }
+    ]
+  }
+]

@@ -41,14 +41,12 @@ export function ComplexTabs({
   qualityRecords,
   vocRecords,
   notes,
-  currentUser,
 }: {
   complex: ApartmentComplex;
   facilities: Facility[];
   qualityRecords: QualityRecord[];
   vocRecords: VocRecord[];
   notes: NoteWithAuthor[];
-  currentUser: { id: string; role: string } | null;
 }) {
   const [active, setActive] = useState<TabKey>("overview");
 
@@ -77,9 +75,7 @@ export function ComplexTabs({
       {active === "facility" && <FacilityTab facilities={facilities} />}
       {active === "quality" && <QualityTab qualityRecords={qualityRecords} />}
       {active === "voc" && <VocTab vocRecords={vocRecords} />}
-      {active === "notes" && (
-        <NotesTab complexId={complex.id} notes={notes} currentUser={currentUser} />
-      )}
+      {active === "notes" && <NotesTab complexId={complex.id} notes={notes} />}
     </div>
   );
 }

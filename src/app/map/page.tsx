@@ -1,21 +1,10 @@
-import { prisma } from "@/lib/prisma";
+import { loadDemoComplexes } from "@/lib/demoData";
 import { MapPageClient } from "@/components/map/MapPageClient";
 import type { MapComplex } from "@/components/map/AllComplexesMap";
 import type { GeoPolygon } from "@/lib/geo";
 
-export default async function MapPage() {
-  const complexes = await prisma.apartmentComplex.findMany({
-    select: {
-      id: true,
-      name: true,
-      roadAddress: true,
-      latitude: true,
-      longitude: true,
-      polygon: true,
-      vocRecords: { select: { status: true } },
-    },
-    orderBy: { name: "asc" },
-  });
+export default function MapPage() {
+  const complexes = loadDemoComplexes();
 
   const mapComplexes: MapComplex[] = complexes.map((c) => ({
     id: c.id,
