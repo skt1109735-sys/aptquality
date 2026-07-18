@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { AllComplexesMap, type MapComplex } from "./AllComplexesMap";
+import { BASE_PATH } from "@/lib/basePath";
 
 export function MapPageClient({ complexes }: { complexes: MapComplex[] }) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -31,13 +31,13 @@ export function MapPageClient({ complexes }: { complexes: MapComplex[] }) {
                     미해결 VoC {c.unresolvedVocCount}건
                   </span>
                 )}
-                <Link
-                  href={`/complex/${c.id}`}
+                <a
+                  href={`${BASE_PATH}/complex/${c.id}/`}
                   onClick={(e) => e.stopPropagation()}
                   className="mt-0.5 w-fit text-[11px] font-medium text-blue-600 hover:underline dark:text-blue-400"
                 >
                   상세보기 →
-                </Link>
+                </a>
               </button>
             </li>
           ))}

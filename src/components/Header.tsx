@@ -23,6 +23,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
+                prefetch={false}
                 className={`text-sm font-medium transition-colors ${
                   pathname === item.href
                     ? "text-blue-600 dark:text-blue-400"

@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { useKakaoMaps } from "./useKakaoMaps";
 import { MapPlaceholder } from "./MapPlaceholder";
 import type { GeoPolygon } from "@/lib/geo";
+import { BASE_PATH } from "@/lib/basePath";
 
 export type MapComplex = {
   id: string;
@@ -88,7 +89,7 @@ export function AllComplexesMap({
       `<div style="padding:8px 10px;font-size:13px;max-width:220px;">
          <strong>${complex.name}</strong><br/>
          <span style="color:#666;">${complex.roadAddress ?? ""}</span><br/>
-         <a href="/complex/${complex.id}" style="color:#2a78d6;font-weight:600;">상세보기 →</a>
+         <a href="${BASE_PATH}/complex/${complex.id}/" style="color:#2a78d6;font-weight:600;">상세보기 →</a>
        </div>`
     );
     infoWindowRef.current.open(mapRef.current, marker);

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { BASE_PATH } from "@/lib/basePath";
 
 export type ComplexCardData = {
   id: string;
@@ -19,8 +19,8 @@ export function ComplexCard({ complex }: { complex: ComplexCardData }) {
   const approvalYear = complex.approvalDate ? new Date(complex.approvalDate).getFullYear() : null;
 
   return (
-    <Link
-      href={`/complex/${complex.id}`}
+    <a
+      href={`${BASE_PATH}/complex/${complex.id}/`}
       className="group flex flex-col gap-3 rounded-xl border border-black/10 bg-[var(--background)] p-4 transition-shadow hover:shadow-md dark:border-white/10"
     >
       <div>
@@ -67,6 +67,6 @@ export function ComplexCard({ complex }: { complex: ComplexCardData }) {
           미해결 VoC {complex.unresolvedVocCount}건
         </span>
       </div>
-    </Link>
+    </a>
   );
 }
