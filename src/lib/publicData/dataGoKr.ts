@@ -13,7 +13,7 @@
 const BASE_URL = "http://apis.data.go.kr";
 
 export const DATA_GO_KR_PATHS = {
-  complexList: process.env.DATA_GO_KR_COMPLEX_LIST_PATH ?? "/1613000/AptListService3/getSigunguAptList",
+  complexList: process.env.DATA_GO_KR_COMPLEX_LIST_PATH ?? "/1613000/AptListService2/getSigunguAptList",
   complexBasicInfo:
     process.env.DATA_GO_KR_COMPLEX_INFO_PATH ?? "/1613000/AptBasisInfoServiceV3/getAphusBassInfoV3",
   aptTrade: process.env.DATA_GO_KR_APT_TRADE_PATH ?? "/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade",
